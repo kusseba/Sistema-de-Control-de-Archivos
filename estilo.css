@@ -1,0 +1,147 @@
+*{/*SACA EL MARGEN DE TODOS LOS ELEMENTOS EN EL ARCHIVO PHP O HTML*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #79fdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header{/*ENCABEZADO*/
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: flex-start;
+    background-color: rgba(12, 185, 185);
+    padding-top: 30px;
+
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(5, 4, 1);
+    padding-top: 30px;
+}
+
+nav a{/*LINK DEL NAV || MENÚ*/
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(12, 185, 185);
+    padding: 30px;
+
+}
+
+main h2{
+    padding: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(5, 4, 1);
+    padding-top: 30px;
+}
+
+footer a{/*LINK DEL FOOTER*/
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+form{/*FORMULARIO DEL LOGIN*/
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: flex-start;
+    background-color: rgb(5, 4, 1);
+    padding: 30px;
+    border-radius: 10px;
+    /* offset-x | offset-y | color box-shadow: 60px -16px teal; */
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.alcance {
+    width: 90%;
+    height: 25px;
+}
+
+.form1pass{/*FORMULARIO DEL LOGIN*/
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(5, 4, 1);
+    padding: 30px;
+    border-radius: 10px;
+    /* offset-x | offset-y | color box-shadow: 60px -16px teal; */
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px #888888;
+
+}
+
+.comboBox1{/*combo box*/
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    color: aliceblue;
+
+}
+
+input{
+    border-radius: 5px;
+}
+
+label{/*ETIQUETAS*/
+    color: aliceblue;
+}
+
+button{/*BOTONES*/
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(250, 191, 15);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.volver{/*LINK VOLVER*/
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(190, 187, 209);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
