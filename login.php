@@ -11,7 +11,8 @@
 </head>
 
 <header>
-    <h2>Login</h2>
+     <!-- Eliminar la etiqueta h2 del programa. Reemplazar por una barra de navegación en el Header.
+                    ¿Armar yo la barra de navegación? Veremos. -->
 </header> 
 <main>
         <br/> 
