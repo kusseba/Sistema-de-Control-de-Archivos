@@ -7,7 +7,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: .5;
     background: linear-gradient(
         180deg,
         rgb(179, 179, 241) 50%,
@@ -94,7 +93,6 @@ form{/*FORMULARIO DEL LOGIN*/
     align-items: flex-start;
     background: linear-gradient(
         180deg,
-        rgb(191, 240, 240) 0%
         rgb(21, 172, 121) 50%
         rgb(141, 238, 238) 100%    
     );
