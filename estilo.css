@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     align-items: center;
     background: linear-gradient(
-        180deg,
+        100deg,
         rgb(179, 179, 241) 50%,
         rgba(0, 0, 116, 0.795) 100%
     );
@@ -86,26 +86,31 @@ footer a{/*LINK DEL FOOTER*/
 
 form{/*FORMULARIO DEL LOGIN*/
     width: 40%;
-    height: 50%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: flex-start;
     background: linear-gradient(
-        180deg,
-        rgb(21, 172, 121) 50%
-        rgb(141, 238, 238) 100%    
+        100deg,
+        rgb(235, 31, 72) 0%,
+        rgb(68, 28, 78) 50%,  
+        rgb(243, 202, 243) 100%  
     );
     padding: 30px;
     border-radius: 70px;
     /* offset-x | offset-y | color box-shadow: 60px -16px teal; */
     border: 1px solid;
-    box-shadow: 5px 5px 5px 5px rgb(174, 248, 223);
+    box-shadow: 2px 2px 2px 2px rgb(174, 248, 223);
 }
 
 .alcance {
     width: 100%;
     height: 25px;
+}
+
+form label {
+    color: black;
 }
 
 .form1pass{/*FORMULARIO DEL LOGIN*/
@@ -144,7 +149,7 @@ button{/*BOTONES*/
     width: 80px;
     height: 30px;
     align-items: center;
-    background-color: rgb(250, 191, 15);
+    background-color: rgb(103, 247, 67);
     border: 0;
     border-radius: 5px;
     cursor: pointer;
@@ -156,7 +161,7 @@ button{/*BOTONES*/
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background-color: rgb(190, 187, 209);
+    background-color: rgb(103, 247, 67);
     border: 0;
     border-radius: 5px;
     cursor: pointer;

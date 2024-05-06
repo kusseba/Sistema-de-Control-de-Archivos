@@ -18,7 +18,7 @@
         <br/> 
         <form method="post" action="preparar.php">
 
-            <label>&#128273; Ingresar usuario</label>            
+            <label class="text">&#128273; Ingresar usuario</label>            
             <input class="alcance" type="text" name="txtusuario"><br/><br/> 
 
             <label>&#128274; Ingresar contraseña</label>
