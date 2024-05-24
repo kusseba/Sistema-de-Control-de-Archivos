@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(
+        100deg,
+        rgb(93, 93, 102) 50%,
+        rgba(182, 182, 187, 0.795) 100%
+    );
+}
+
+aside {
+    display: flex;
+    flex-direction: flex-start;
+    width: 30px;
+    height: 300px;
+    margin: 0px;
+    background-color: azure;
+    padding: 5%;
+}
+
+

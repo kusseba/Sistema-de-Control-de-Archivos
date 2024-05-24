@@ -1,0 +1,159 @@
+.car{
+    
+    margin:2px;
+}
+
+.car:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin:2px;
+    cursor:pointer;
+}
+
+
+.car a{
+    text-decoration: none;
+
+}
+
+.section_prof{
+    background-color: rgb(255, 255, 255);
+    flex: 50%;
+    padding: 20px;
+}
+
+.contenedorT{
+    display: flex;
+}
+
+.contenedorT .histBtn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contenedorT .histBtn, .asiBtn{
+    text-align: center;
+    width: 10%;
+    height: 15%;
+    margin-left:20px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+.histBtn:hover{
+    background-color: rgb(121, 121, 121);
+}
+
+.asiBtn{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.asiBtn:hover{
+    background-color: rgb(121, 121, 121);
+}
+
+.mat{
+    display: flex;
+    margin: 10px;
+    background-color: rgb(250, 207, 151);
+    border-radius: 5px;
+
+    
+}
+
+.mat:hover{
+    margin: 5px;
+    background-color: rgb(255, 194, 114);
+    border-radius: 5px;
+    padding-top:10px;
+    cursor:pointer;
+}
+
+.mat a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+
+.volver{
+    text-align: center;
+    width: 7%;
+    margin-top:20px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.volver:hover{
+    text-align: center;
+    width: 7%;
+    margin-top:20px;
+    background-color: rgb(126, 126, 126);
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.volver a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.tabla_asistencia{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+
+.o, .x{/*BOTONES OX ASISTENCIA*/
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10%;
+}
+
+.x:hover{/*BOTON X ASISTENCIA*/
+    text-align: center;
+    background-color: rgb(126, 126, 126);
+    border-radius: 10%x;
+    padding: 7px;
+    cursor: pointer;
+}
+
+
+.o:hover{/*BOTON O ASISTENCIA*/
+    text-align: center;
+    background-color: rgb(126, 126, 126);
+    border-radius: 10%x;
+    padding: 7px;
+    cursor: pointer;
+}  
+
+.trh{
+    background-color: #000000;
+    color: white;
+}
+
+.trintermedio td{
+    padding: 15px;
+    border-bottom: 0.1px solid black;
+}
+
+.trasi:hover{
+    background-color: rgb(202, 202, 255);
+    border-bottom: 1px solid black;
+    padding: 5px;
+    cursor:pointer;
+
+}

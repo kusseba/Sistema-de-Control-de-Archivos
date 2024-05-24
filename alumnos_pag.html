@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Página de Alumnos</title>
+</head>
+<body>
+  <header>
+    <h3>Sección Alumnos</h3>
+  </header>
+  <div class="container">
+    <aside>
+      <h5>Alumno: Martin Martinez</h5>
+      <div class="button-container">
+        <button class="buttonAside" onclick="showTable('tabla_1')">1°</button>
+        <button class="buttonAside" onclick="showTable('tabla_2')">2°</button>
+        <button class="buttonAside" onclick="showTable('tabla_3')">3°</button>
+      </div>
+    </aside>
+
+    <section id="tabla1" class="table-section">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Materia</th>
+            <th>Porcentaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Matematica</th>
+            <th>90%</th>
+          </tr>
+          <tr>
+            <th>Lengua</th>
+            <th>50%</th>
+          </tr>
+          <tr>
+            <th>Ciencias Sociales</th>
+            <th>60%</th>
+          </tr>
+          <tr>
+            <th>Ciencias Naturales</th>
+            <th>100%</th>
+          </tr>
+          <tr>
+            <th>Literatura</th>
+            <th>20%</th>
+          </tr>
+          <tr>
+            <th>Anatomia</th>
+            <th>20%</th>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="tabla2" class="table-section" style="display: none;">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Materia</th>
+            <th>Porcentaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Matematica</th>
+            <th>90%</th>
+          </tr>
+          <tr>
+            <th>Lengua</th>
+            <th>50%</th>
+          </tr>
+          <tr>
+            <th>Ciencias Sociales</th>
+            <th>60%</th>
+          </tr>
+          <tr>
+            <th>Ciencias Naturales</th>
+            <th>100%</th>
+          </tr>
+          <tr>
+            <th>Literatura</th>
+            <th>20%</th>
+          </tr>
+          <tr>
+            <th>Anatomia</th>
+            <th>20%</th>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="tabla3" class="table-section" style="display: none;">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Materia</th>
+            <th>Porcentaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Matematica</th>
+            <th>90%</th>
+          </tr>
+          <tr>
+            <th>Lengua</th>
+            <th>90%</th>
+          </tr>
+          <tr>
+            <th>Ciencias Sociales</th>
+            <th>10%</th>
+          </tr>
+          <tr>
+            <th>Ciencias Naturales</th>
+            <th>30%</th>
+          </tr>
+          <tr>
+            <th>Literatura</th>
+            <th>20%</th>
+          </tr>
+          <tr>
+            <th>Anatomia</th>
+            <th>60%</th>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <script>
+      function showTable(tableId) {
+        const tables = document.querySelector('.table-section');
+        tables.forEach(table => {
+          table.style.display = 'none';
+        });
+
+        const selectedTable = document.querySelector(tableId);
+        selectedTable.style.display = 'display';
+      }
+
+      
+    </script>
+
+  </div>
+</body>
+</html>

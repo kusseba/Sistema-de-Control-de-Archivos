@@ -6,7 +6,7 @@
     https://vaidrollteam.blogspot.com/2020/08/login-basico-registrar-datos-ejercicio.html --> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo2.css">
     <title>Asistencia Login</title>
 </head>
 
